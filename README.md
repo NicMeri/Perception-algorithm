@@ -59,5 +59,17 @@ The client performs road lane recognition in a simulated urban environment withi
 - This project requires CARLA version 0.9.15. Make sure you follow all installation instructions correctly.
 - It is recommended to use a computer with an NVIDIA graphics card to optimize the performance of the CARLA simulator.
 
+## Final Result
+The project allows you to recognize road lanes in a simulated urban environment within CARLA. Below is a visual example of the result obtained.
+
+### Output Examples
+![Lane Detection](media/curve_latex.png)
+
+In the image, the system is able to correctly recognize the lanes of the road and display them both through the RGB view and through a specific perspective created to facilitate the interpretation of the road.
+
+### Demo Video
+If you want to see the system in action, you can watch the following video which shows the lane recognition process in real time:
+![Explanatory Video](media/Video_for_meeting3.webm)
+
 ## Authors
 Niccolò Mariani
